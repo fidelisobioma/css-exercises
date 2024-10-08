@@ -55,11 +55,14 @@
   border-radius: 10px;
 }
 
-.sidebar .side-content {
+.sidebar .side-content,
+.photo {
   background-color: white;
   color: black;
   font-size: 16px;
   font-weight: normal;
+  display: grid;
+  place-content: center;
 }
 
 .nav {
@@ -103,6 +106,7 @@
   color: black;
   font-weight: normal;
   font-size: 14px;
+  padding: 10px;
 }
 
 .card .title {
